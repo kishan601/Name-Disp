@@ -7,7 +7,7 @@
   background-color: #f5f5f5;
 }
 
-.form-container {
+.container {
   background-color: white;
   padding: 30px;
   border-radius: 8px;
@@ -32,23 +32,12 @@ label {
   font-weight: bold;
 }
 
-input {
+input[type="text"] {
   width: 100%;
   padding: 8px;
   border: 1px solid #ddd;
   border-radius: 4px;
   box-sizing: border-box;
-}
-
-input.error {
-  border-color: #ff3860;
-}
-
-.error-message {
-  color: #ff3860;
-  font-size: 0.8rem;
-  margin-top: 5px;
-  display: block;
 }
 
 button {
@@ -69,18 +58,8 @@ button:hover {
 
 .result {
   margin-top: 20px;
-  padding-top: 20px;
-  border-top: 1px solid #eee;
-}
-
-.result h2 {
-  color: #333;
-  margin-bottom: 5px;
-}
-
-.result p {
+  padding: 15px;
   background-color: #f9f9f9;
-  padding: 10px;
   border-radius: 4px;
   font-weight: bold;
 }
